@@ -1,5 +1,18 @@
 # exradius-skill
 
+> **This repository has moved.** The setup skill now lives in
+> [`skill/`](https://github.com/musabeytekin/exradius/tree/main/skill) of the
+> [Exradius repository](https://github.com/musabeytekin/exradius), which is also its
+> marketplace:
+>
+> ```bash
+> claude plugin marketplace add musabeytekin/exradius
+> claude plugin install exradius@exradius
+> ```
+>
+> This repository is archived. Existing installs keep working at version 0.2.0, which
+> matches Exradius before its move to Kubernetes.
+
 A Claude Code plugin with one skill, `exradius-project`, that puts a codebase on
 [Exradius](#what-exradius-needs-from-a-project), the self-hosted harness that runs AI
 agents on a team's repositories. On the developer's machine it:
